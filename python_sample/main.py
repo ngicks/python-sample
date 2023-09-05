@@ -3,7 +3,7 @@ import os
 
 
 with open(
-    os.path.dirname(os.path.abspath("__file__")) + "/python_sample/sample.json",
+    os.path.dirname(os.path.abspath(__file__)) + "/sample.json",
     "r",
     encoding="utf-8",
 ) as f:
