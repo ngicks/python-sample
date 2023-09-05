@@ -6,9 +6,10 @@
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-## build
+## install and build
 
 ```
+poetry install
 poetry build
 ```
 
@@ -27,6 +28,7 @@ pip install git+https://github.com/ngicks/python-sample
 Python 3.11.5 (main, Aug 25 2023, 23:57:27) [GCC 12.2.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> from python_sample import main
+{'foo': 'bar'}
   _____________________
 | Hello (extinct) World |
   =====================
